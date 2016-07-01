@@ -30,7 +30,7 @@ h3, h4, p{
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 26px;
   font-family: 'Oswald', sans-serif;
 }
 
@@ -53,7 +53,7 @@ p {
   font-style: italic;
 }
 
-.container {
+.container, .results {
   padding: 0;
   margin: 0;
   margin-top: 30px;
@@ -70,12 +70,12 @@ p {
   /*float:left;*/
   padding: 5px;
   width: 200px;
-
 }
 
 .movie img{
   width: 200px;
   height: 300px;
+  border: 1px solid black;
   border-radius: 5%
 
 }
