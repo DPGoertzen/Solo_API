@@ -1,0 +1,80 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+
+
+h2, h3, h4, p{
+  text-align: center;
+}
+
+h3, h4, p{
+  font-family: 'Slabo 27px', serif;
+}
+
+h2 {
+  font-size: 24px;
+  font-family: 'Oswald', sans-serif;
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+h4:first-of-type {
+  margin-top: 10px;
+}
+
+p {
+  margin-top: 10px;
+  font-style: italic;
+}
+
+.container {
+  padding: 0;
+  margin: 0;
+  margin-top: 30px;
+  list-style: none;
+
+
+  display: flex;
+
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.movie {
+  /*float:left;*/
+  padding: 5px;
+  width: 200px;
+
+}
+
+.movie img{
+  width: 200px;
+  height: 300px;
+  border-radius: 5%
+
+}
